@@ -1,4 +1,4 @@
-module.exports.TaylorCh = ch;
+module.exports.ATaylorCh = ch;
 
 
 function ch(x, n) {
