@@ -1,0 +1,15 @@
+{
+  "name": "zpi03",
+  "version": "1.0.2",
+  "description": "Components of Software Engineering",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anastasiiatykhonova/sec1.git"
+  },
+  "author": "ikhonova Nastya",
+  "license": "ISC"
+}
