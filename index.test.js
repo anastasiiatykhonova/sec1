@@ -3,10 +3,10 @@ const Calc = require('./calc');
 
 describe('Unit test', function () {
 
-    it('Функція TaylorCh існує', function(){
-        assert.equal(typeof Calc.TaylorCh, "function");
+    it('Функція ATaylorCh існує', function(){
+        assert.equal(typeof Calc.ATaylorCh, "function");
     });
     it('Has to be equal to 0.5231770833 if members are 3', function () {
-        assert.equal(Calc.TaylorCh(2, 4), 3.7619);
+        assert.equal(Calc.ATaylorCh(2, 4), 3.7619);
     })
 });
