@@ -6,7 +6,7 @@ function ch(x, n) {
 
     for (i = 1, j = 2; i <= n; i++, j += 2) {
 
-        sum += Math.pow(x, j) / factorial(j);
+        sum += Math.pow(x, j) / factorial(j)+1;
     }
     return sum.toFixed(4);
 
