@@ -10,3 +10,5 @@ describe('Unit test', function () {
         assert.equal(Calc.ATaylorCh(2, 4), 3.7619);
     })
 });
+
+//
