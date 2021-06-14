@@ -3,9 +3,11 @@
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]jobs:
+    branches: [ master ]
+  jobs:
   build:
-  runs-on: ubuntu-latest  strategy:
+  runs-on: ubuntu-latest  
+  strategy:
     matrix:
       node-version: [10.x, 12.x, 14.x]
      
@@ -14,6 +16,7 @@
   - name: Use Node.js ${{ matrix.node-version }}
     uses: actions/setup-node@v1
     with:
-      node-version: ${{ matrix.node-version }}  - run: npm ci
+      node-version: ${{ matrix.node-version }}  
+  - run: npm ci
   - run: npm run build — if-present
   - run: npm test
