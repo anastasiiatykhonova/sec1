@@ -6,7 +6,8 @@
     branches: [ master ]
   jobs:
   build:
-  runs-on: ubuntu-latest  strategy:
+  runs-on: ubuntu-latest  
+  strategy:
     matrix:
       node-version: [10.x, 12.x, 14.x]
      
