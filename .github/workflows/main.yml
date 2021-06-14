@@ -3,7 +3,8 @@
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]jobs:
+    branches: [ master ]
+  jobs:
   build:
   runs-on: ubuntu-latest  strategy:
     matrix:
